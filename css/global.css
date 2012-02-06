@@ -1,1 +1,122 @@
-/* This file will hold the main styles for your website. */
+body {
+  color: #333333;
+  background-color: #aaacaf;
+  font: 16px normal;
+  font-family: sans-serif;
+}
+.region-header-first {
+  height: 300px;
+}
+.region-branding {
+  position: relative;
+}
+.block-delta-blocks-branding {
+  position: absolute;
+  top: -42px;
+  left: -15px;
+  z-index: 100;
+}
+.block-delta-blocks-branding img {
+  box-shadow: 0 5px 10px #333333;
+}
+.zone-user {
+  padding: 0.3em;
+  margin-bottom: 10px;
+}
+.zone-menu {
+  padding: 1em;
+}
+.block-system-main-menu .content, .block-system-user-menu .content {
+  text-align: right;
+}
+.menu {
+  display: inline;
+  padding-left: 0;
+}
+.menu li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+.node-previous-jobs.node-teaser {
+  margin-bottom: 1em;
+}
+.node-previous-jobs.node-teaser .group-left {
+  width: 25%;
+}
+.node-previous-jobs.node-teaser .group-right {
+  width: 75%;
+}
+.node-previous-jobs.node-teaser .field-items img {
+  float: left;
+  height: 120px;
+}
+.node-previous-jobs.node-teaser .field-items .field-item:first-of-type img {
+  height: 240px !important;
+}
+table.views-view-grid {
+  border: none;
+}
+.testimonial-block {
+  color: #5a5c5f;
+  font-size: 0.8em;
+}
+.testimonial-block td {
+  width: 50%;
+  text-align: justify;
+  vertical-align: text-top;
+}
+.testimonial-block tr:hover {
+  background: none;
+}
+.testimonial-block h3 {
+  font-size: 0.9em;
+  color: #5a5c5f;
+  margin-bottom: 0px;
+}
+.testimonial-block h3 a {
+  color: #5a5c5f;
+  text-decoration: none;
+}
+.testimonial-block .field-name-body p {
+  margin-bottom: 0;
+}
+.testimonial-block .field-name-field-testament-authour {
+  text-align: right;
+  margin: 0;
+}
+.testimonial-block .field-name-field-testament-authour .field-item:before {
+  content: "- ";
+}
+.region-header-second .block {
+  margin-bottom: 20px;
+}
+.region-header-second .block .block-inner {
+  position: relative;
+  background: #f6c162;
+  font-size: 2em;
+  border-radius: 10px;
+  padding: 10px;
+}
+.region-header-second .block .block-inner .block-title {
+  width: 200px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1em;
+}
+.region-header-second .block .block-inner .content {
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 1em;
+}
+.region-header-second .block .block-inner .content a {
+  color: #ffffff;
+}
+.region-header-second .block .block-inner .content li:first-child {
+  float: left;
+}
+.region-header-second .block .block-inner .content li:last-child {
+  float: right;
+}

@@ -1,1 +1,155 @@
-/* This file will hold the main styles for your website. */
+// Greys Color: http://colorschemedesigner.com/#3H21T1BhWw0w0
+@medGrey: rgb(90,92,95);
+@darkGrey: rgb(69,69,71);
+@darkBlue: rgb(29,41,62);
+@lightGrey: rgb(169,171,175);
+@lighterGrey: rgb(170,172,175);
+
+// Primary Color: http://colorschemedesigner.com/#3H21TsOsOFfFf
+@rceBlue: rgb(28,74,152);
+@medBlue: rgb(46,67,102);
+@navyBlue: rgb(5,34,82);
+@lightBlue: rgb(100,144,220);
+@lighterBlue: rgb(147,174,220);
+
+// Complementary Color:
+@medOrange: rgb(230,156,23);
+@darkOrange: rgb(154,121,61);
+@darkerOrange: rgb(123,81,4);
+@lightOrange: rgb(246,193,98);
+@lighterOrange: rgb(246,214,156);
+
+// Text Color:
+@textColor: #333;
+@white: #fff;
+@bodyColor: #fff;
+
+body {
+  color: @textColor;
+  background-color: @lighterGrey;
+  font: 16px normal;
+  font-family: sans-serif;
+}
+.region-header-first {
+  height: 300px;
+}
+.region-branding {
+  position: relative;
+}
+.block-delta-blocks-branding {
+  position: absolute;
+  top: -42px;
+  left: -15px;
+  z-index: 100;
+  img {
+    box-shadow:0 5px 10px #333333;
+  }
+}
+.zone-user {
+  padding: 0.3em;
+  margin-bottom: 10px;
+}
+.zone-menu {
+  padding: 1em;
+}
+.block-system-main-menu .content, .block-system-user-menu .content {
+  text-align: right;
+}
+.menu {
+  display: inline;
+  padding-left: 0;
+  li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 0.5em;
+  }
+}
+.node-previous-jobs.node-teaser {
+  margin-bottom: 1em;
+  .group-left {
+    width: 25%;
+  }
+  .group-right {
+    width: 75%;
+  }
+  .field-items {
+    img {
+      float: left;
+      height: 120px;
+    }
+    .field-item:first-of-type img {
+      height: 240px !important;
+    }
+  }
+}
+table.views-view-grid {
+  border: none;
+}
+.testimonial-block {
+  color: @medGrey;
+  font-size: 0.8em;
+  td {
+    width: 50%;
+    text-align: justify;
+    vertical-align: text-top;
+  }
+  tr:hover {
+    background: none;
+  }
+  h3{
+    font-size: 0.9em;
+    color: @medGrey;
+    margin-bottom: 0px;
+    a {
+      color: @medGrey;
+      text-decoration: none;
+    }
+  }
+  .field-name-body {
+    p {
+      margin-bottom: 0;
+    }
+  }
+  .field-name-field-testament-authour {
+    text-align: right;
+    margin: 0;
+    .field-item:before {
+      content: "- ";
+    }
+  }
+}
+//Contact US block
+.region-header-second {
+  .block {
+    margin-bottom: 20px;
+    .block-inner {
+      position: relative;
+      background: @lightOrange;
+      font-size: 2em;
+      border-radius: 10px;
+      padding: 10px;
+      .block-title {
+        width: 200px;
+        margin: 0 auto;
+        color: #fff;
+        font-size: 1em;
+      }
+      .content {
+        position: absolute;
+        top: 8px;
+        width: 100%;
+        color: @white;
+        font-size: 1em;
+        a {
+          color: @white;
+        }
+        li:first-child {
+          float: left;
+        }
+        li:last-child {
+          float: right;
+        }
+      }
+    }
+  }
+}

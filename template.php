@@ -10,3 +10,9 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+function rce2011_preprocess_image(&$variables) {
+    // If this image is of the type 'Staff Photo' then assign additional classes to it:
+    if (isset($variables['style_name']) && $variables['style_name'] == 'large') {
+        $variables['attributes']['class'][] = 'lightbox';
+    }
+}
